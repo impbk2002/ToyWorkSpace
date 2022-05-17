@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070672672833AF17009E33D7 /* SingleCalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070672662833AF17009E33D7 /* SingleCalendarGridView.swift */; };
+		070672682833AF17009E33D7 /* SingleCalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070672662833AF17009E33D7 /* SingleCalendarGridView.swift */; };
+		0706726A2833B1BF009E33D7 /* ScrollViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070672692833B1BF009E33D7 /* ScrollViewModifier.swift */; };
+		0706726B2833B1BF009E33D7 /* ScrollViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070672692833B1BF009E33D7 /* ScrollViewModifier.swift */; };
+		0706726D2833CC01009E33D7 /* CalendarGridConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0706726C2833CC01009E33D7 /* CalendarGridConfiguration.swift */; };
+		0706726E2833CC01009E33D7 /* CalendarGridConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0706726C2833CC01009E33D7 /* CalendarGridConfiguration.swift */; };
+		0706726F2833D227009E33D7 /* CalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D180182833509000CE1378 /* CalendarGridView.swift */; };
+		0754E92A282D65390014784E /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754E929282D65390014784E /* MainNavigationView.swift */; };
+		0754E92B282D65390014784E /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754E929282D65390014784E /* MainNavigationView.swift */; };
+		0754E930282E731F0014784E /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 0754E92F282E731F0014784E /* KeychainAccess */; };
+		0754E933282E73360014784E /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 0754E932282E73360014784E /* KeychainAccess */; };
+		0754E9432832884F0014784E /* CustomSideMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754E9422832884E0014784E /* CustomSideMainView.swift */; };
+		0754E9442832884F0014784E /* CustomSideMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754E9422832884E0014784E /* CustomSideMainView.swift */; };
+		0754E946283288F80014784E /* SideMenuModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754E945283288F80014784E /* SideMenuModifier.swift */; };
+		0754E947283288F80014784E /* SideMenuModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754E945283288F80014784E /* SideMenuModifier.swift */; };
+		07D180192833509000CE1378 /* CalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D180182833509000CE1378 /* CalendarGridView.swift */; };
 		07E8A0AB2829F0F9008BD0EA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0AA2829F0F9008BD0EA /* Tests_iOS.swift */; };
 		07E8A0AD2829F0F9008BD0EA /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0AC2829F0F9008BD0EA /* Tests_iOSLaunchTests.swift */; };
 		07E8A0B72829F0F9008BD0EA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0B62829F0F9008BD0EA /* Tests_macOS.swift */; };
@@ -21,6 +37,14 @@
 		07E8A0C12829F0FA008BD0EA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0932829F0F8008BD0EA /* Persistence.swift */; };
 		07E8A0C22829F0FA008BD0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E8A0942829F0F9008BD0EA /* Assets.xcassets */; };
 		07E8A0C32829F0FA008BD0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E8A0942829F0F9008BD0EA /* Assets.xcassets */; };
+		07E8A0D32829F31A008BD0EA /* MainWindowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0D22829F31A008BD0EA /* MainWindowScene.swift */; };
+		07E8A0D42829F31A008BD0EA /* MainWindowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0D22829F31A008BD0EA /* MainWindowScene.swift */; };
+		07E8A0D62829F5BA008BD0EA /* DemoToycraftDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0D52829F5BA008BD0EA /* DemoToycraftDelegate.swift */; };
+		07E8A0D72829F5BA008BD0EA /* DemoToycraftDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0D52829F5BA008BD0EA /* DemoToycraftDelegate.swift */; };
+		07E8A0D92829F6BC008BD0EA /* MainSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0D82829F6BC008BD0EA /* MainSceneDelegate.swift */; };
+		07E8A0DA2829F6BC008BD0EA /* MainSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0D82829F6BC008BD0EA /* MainSceneDelegate.swift */; };
+		07E8A0E2282A2B30008BD0EA /* URLSessionActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0E1282A2B30008BD0EA /* URLSessionActor.swift */; };
+		07E8A0E3282A2B30008BD0EA /* URLSessionActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A0E1282A2B30008BD0EA /* URLSessionActor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070672662833AF17009E33D7 /* SingleCalendarGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCalendarGridView.swift; sourceTree = "<group>"; };
+		070672692833B1BF009E33D7 /* ScrollViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewModifier.swift; sourceTree = "<group>"; };
+		0706726C2833CC01009E33D7 /* CalendarGridConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGridConfiguration.swift; sourceTree = "<group>"; };
+		0754E929282D65390014784E /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		0754E9422832884E0014784E /* CustomSideMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSideMainView.swift; sourceTree = "<group>"; };
+		0754E945283288F80014784E /* SideMenuModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuModifier.swift; sourceTree = "<group>"; };
+		07D180182833509000CE1378 /* CalendarGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGridView.swift; sourceTree = "<group>"; };
 		07E8A0902829F0F8008BD0EA /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		07E8A0912829F0F8008BD0EA /* DemoToycraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToycraftApp.swift; sourceTree = "<group>"; };
 		07E8A0922829F0F8008BD0EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +86,10 @@
 		07E8A0B22829F0F9008BD0EA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E8A0B62829F0F9008BD0EA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		07E8A0B82829F0FA008BD0EA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		07E8A0D22829F31A008BD0EA /* MainWindowScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowScene.swift; sourceTree = "<group>"; };
+		07E8A0D52829F5BA008BD0EA /* DemoToycraftDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToycraftDelegate.swift; sourceTree = "<group>"; };
+		07E8A0D82829F6BC008BD0EA /* MainSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneDelegate.swift; sourceTree = "<group>"; };
+		07E8A0E1282A2B30008BD0EA /* URLSessionActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionActor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0754E930282E731F0014784E /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0754E933282E73360014784E /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,25 +126,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0754E931282E73360014784E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0754E936282F864A0014784E /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				07D180182833509000CE1378 /* CalendarGridView.swift */,
+				070672662833AF17009E33D7 /* SingleCalendarGridView.swift */,
+				070672692833B1BF009E33D7 /* ScrollViewModifier.swift */,
+				0706726C2833CC01009E33D7 /* CalendarGridConfiguration.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
 		07E8A0892829F0F7008BD0EA = {
 			isa = PBXGroup;
 			children = (
+				0754E936282F864A0014784E /* UIComponents */,
 				07E8A08E2829F0F8008BD0EA /* Shared */,
 				07E8A0A02829F0F9008BD0EA /* macOS */,
 				07E8A0A92829F0F9008BD0EA /* Tests iOS */,
 				07E8A0B52829F0F9008BD0EA /* Tests macOS */,
 				07E8A09A2829F0F9008BD0EA /* Products */,
+				0754E931282E73360014784E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		07E8A08E2829F0F8008BD0EA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				07E8A0D52829F5BA008BD0EA /* DemoToycraftDelegate.swift */,
 				07E8A0912829F0F8008BD0EA /* DemoToycraftApp.swift */,
 				07E8A0922829F0F8008BD0EA /* ContentView.swift */,
 				07E8A0932829F0F8008BD0EA /* Persistence.swift */,
 				07E8A0942829F0F9008BD0EA /* Assets.xcassets */,
 				07E8A08F2829F0F8008BD0EA /* DemoToycraft.xcdatamodeld */,
+				07E8A0D22829F31A008BD0EA /* MainWindowScene.swift */,
+				07E8A0D82829F6BC008BD0EA /* MainSceneDelegate.swift */,
+				07E8A0E1282A2B30008BD0EA /* URLSessionActor.swift */,
+				0754E929282D65390014784E /* MainNavigationView.swift */,
+				0754E9422832884E0014784E /* CustomSideMainView.swift */,
+				0754E945283288F80014784E /* SideMenuModifier.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -165,6 +229,9 @@
 			dependencies = (
 			);
 			name = "DemoToycraft (iOS)";
+			packageProductDependencies = (
+				0754E92F282E731F0014784E /* KeychainAccess */,
+			);
 			productName = "DemoToycraft (iOS)";
 			productReference = 07E8A0992829F0F9008BD0EA /* DemoToycraft.app */;
 			productType = "com.apple.product-type.application";
@@ -182,6 +249,9 @@
 			dependencies = (
 			);
 			name = "DemoToycraft (macOS)";
+			packageProductDependencies = (
+				0754E932282E73360014784E /* KeychainAccess */,
+			);
 			productName = "DemoToycraft (macOS)";
 			productReference = 07E8A09F2829F0F9008BD0EA /* DemoToycraft.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +327,9 @@
 				Base,
 			);
 			mainGroup = 07E8A0892829F0F7008BD0EA;
+			packageReferences = (
+				0754E92E282E731E0014784E /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 07E8A09A2829F0F9008BD0EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -307,9 +380,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E8A0E2282A2B30008BD0EA /* URLSessionActor.swift in Sources */,
+				07E8A0D62829F5BA008BD0EA /* DemoToycraftDelegate.swift in Sources */,
+				0706726D2833CC01009E33D7 /* CalendarGridConfiguration.swift in Sources */,
 				07E8A0BC2829F0FA008BD0EA /* DemoToycraftApp.swift in Sources */,
+				070672672833AF17009E33D7 /* SingleCalendarGridView.swift in Sources */,
+				07E8A0D32829F31A008BD0EA /* MainWindowScene.swift in Sources */,
 				07E8A0C02829F0FA008BD0EA /* Persistence.swift in Sources */,
+				0754E9432832884F0014784E /* CustomSideMainView.swift in Sources */,
+				07E8A0D92829F6BC008BD0EA /* MainSceneDelegate.swift in Sources */,
+				0754E946283288F80014784E /* SideMenuModifier.swift in Sources */,
+				07D180192833509000CE1378 /* CalendarGridView.swift in Sources */,
+				0706726A2833B1BF009E33D7 /* ScrollViewModifier.swift in Sources */,
 				07E8A0BA2829F0FA008BD0EA /* DemoToycraft.xcdatamodeld in Sources */,
+				0754E92A282D65390014784E /* MainNavigationView.swift in Sources */,
 				07E8A0BE2829F0FA008BD0EA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,9 +402,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0706726F2833D227009E33D7 /* CalendarGridView.swift in Sources */,
+				07E8A0E3282A2B30008BD0EA /* URLSessionActor.swift in Sources */,
+				07E8A0D72829F5BA008BD0EA /* DemoToycraftDelegate.swift in Sources */,
+				0706726E2833CC01009E33D7 /* CalendarGridConfiguration.swift in Sources */,
 				07E8A0BD2829F0FA008BD0EA /* DemoToycraftApp.swift in Sources */,
+				07E8A0D42829F31A008BD0EA /* MainWindowScene.swift in Sources */,
+				0706726B2833B1BF009E33D7 /* ScrollViewModifier.swift in Sources */,
 				07E8A0C12829F0FA008BD0EA /* Persistence.swift in Sources */,
+				070672682833AF17009E33D7 /* SingleCalendarGridView.swift in Sources */,
+				0754E9442832884F0014784E /* CustomSideMainView.swift in Sources */,
+				07E8A0DA2829F6BC008BD0EA /* MainSceneDelegate.swift in Sources */,
+				0754E947283288F80014784E /* SideMenuModifier.swift in Sources */,
 				07E8A0BB2829F0FA008BD0EA /* DemoToycraft.xcdatamodeld in Sources */,
+				0754E92B282D65390014784E /* MainNavigationView.swift in Sources */,
 				07E8A0BF2829F0FA008BD0EA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,6 +808,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0754E92E282E731E0014784E /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0754E92F282E731F0014784E /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0754E92E282E731E0014784E /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		0754E932282E73360014784E /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0754E92E282E731E0014784E /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		07E8A08F2829F0F8008BD0EA /* DemoToycraft.xcdatamodeld */ = {

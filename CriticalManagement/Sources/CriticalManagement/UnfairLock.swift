@@ -33,5 +33,13 @@ public final class UnfairLock: NSObject, Sendable, NSLocking, CiriticalRegionLoc
     public func unlock() {
         os_unfair_lock_unlock(osLock)
     }
+    
+    public func assertOwner() {
+        os_unfair_lock_assert_owner(osLock)
+    }
+    
+    public func assertNotOwner() {
+        os_unfair_lock_assert_not_owner(osLock)
+    }
 }
 
